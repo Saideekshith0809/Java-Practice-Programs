@@ -31,7 +31,6 @@ class Codechef
 	            list.add(new Pair(c, i));
 	        }
 	        
-	        // Sort by value
 	        Collections.sort(list, (x, y) -> x.val - y.val);
 	        
 	        int[] count = new int[n];
@@ -45,7 +44,6 @@ class Codechef
 	            if(count[r.idx] == 0) unique++;
 	            count[r.idx]++;
 	            
-	            // When all indices covered
 	            while(unique == n){
 	                int range = list.get(right).val - list.get(left).val;
 	                ans = Math.min(ans, range);
