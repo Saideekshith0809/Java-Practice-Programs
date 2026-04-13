@@ -5,16 +5,12 @@ class Solution {
         Stack<Character> stack = new Stack<>();
 
         for (char ch : s.toCharArray()) {
-            // Push opening brackets
             if (ch == '(' || ch == '{' || ch == '[') {
                 stack.push(ch);
             } else {
-                // If stack empty → invalid
                 if (stack.isEmpty()) return false;
 
                 char top = stack.pop();
-
-                // Check matching pairs
                 if ((ch == ')' && top != '(') ||
                     (ch == '}' && top != '{') ||
                     (ch == ']' && top != '[')) {
@@ -22,8 +18,6 @@ class Solution {
                 }
             }
         }
-
-        // Stack should be empty if valid
         return stack.isEmpty();
     }
 }
