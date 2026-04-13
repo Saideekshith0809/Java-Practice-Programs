@@ -8,18 +8,13 @@ class Solution {
     }
 
     private void backtrack(List<String> result, String current, int open, int close, int n) {
-        // Base case
         if (current.length() == 2 * n) {
             result.add(current);
             return;
         }
-
-        // Add '('
         if (open < n) {
             backtrack(result, current + "(", open + 1, close, n);
         }
-
-        // Add ')'
         if (close < open) {
             backtrack(result, current + ")", open, close + 1, n);
         }
