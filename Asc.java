@@ -6,7 +6,7 @@ class Asc {
 
         System.out.println("Enter the number of names:");
         int n = sc.nextInt();
-        sc.nextLine(); // consume newline
+        sc.nextLine(); 
 
         String[] str = new String[n];
 
