@@ -11,7 +11,6 @@ class Solution {
             else{
                 ans+=value(s.charAt(i));
             }
-           
         } 
         ans += value(s.charAt(s.length() - 1));
         return ans;
