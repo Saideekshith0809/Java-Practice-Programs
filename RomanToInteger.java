@@ -16,7 +16,6 @@ class Solution {
         ans += value(s.charAt(s.length() - 1));
         return ans;
 
-        
     }
     int value(char c) {
         if (c == 'I') return 1;
