@@ -1,3 +1,5 @@
+import java.io.*;
+import java.util.*;
 class Solution {
     public int removeElement(int[] nums, int val) {
         int k = 0;
