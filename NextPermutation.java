@@ -9,7 +9,6 @@ class Solution {
             i--;
         }
 
-        // Step 2: Find next greater element and swap
         if (i >= 0) {
             int j = n - 1;
             while (nums[j] <= nums[i]) {
