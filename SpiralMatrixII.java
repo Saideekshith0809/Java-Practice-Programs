@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.*;
+import java.util.Scanner;
 class Solution {
     public int[][] generateMatrix(int n) {
         int[][] matrix = new int[n][n];
