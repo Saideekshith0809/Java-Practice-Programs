@@ -4,7 +4,6 @@ class Solution {
 
         while (mid <= high) {
             if (nums[mid] == 0) {
-                // swap nums[low] and nums[mid]
                 int temp = nums[low];
                 nums[low] = nums[mid];
                 nums[mid] = temp;
