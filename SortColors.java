@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.*;
+import java.util.Scanner;
 class Solution {
     public void sortColors(int[] nums) {
         int low = 0, mid = 0, high = nums.length - 1;
