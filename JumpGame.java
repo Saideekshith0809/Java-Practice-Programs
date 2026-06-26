@@ -1,3 +1,4 @@
+import java.io.*;
 class Solution {
     public boolean canJump(int[] nums) {
         int maxReach = 0;
