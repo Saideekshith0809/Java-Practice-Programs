@@ -18,7 +18,7 @@ class Solution {
         for (int i = index; i < nums.length; i++) {
             swap(nums, index, i);
             backtrack(nums, index + 1, result);
-            swap(nums, index, i); // Backtrack
+            swap(nums, index, i); 
         }
     }
 
