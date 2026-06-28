@@ -1,3 +1,4 @@
+import java.io.*;
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         int max=0;
