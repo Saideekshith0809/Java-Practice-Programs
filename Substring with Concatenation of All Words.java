@@ -42,13 +42,11 @@ public class SubstringWithConcatenation {
                         count--;
                     }
 
-                    // Valid window found
                     if (count == wordCount) {
                         result.add(left);
                     }
 
                 } else {
-                    // Reset window
                     windowMap.clear();
                     count = 0;
                     left = right + wordLen;
