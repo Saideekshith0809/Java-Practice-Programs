@@ -15,7 +15,6 @@ public class SubstringWithConcatenation {
         int wordCount = words.length;
         int totalLen = wordLen * wordCount;
 
-        // Frequency map of words
         Map<String, Integer> wordMap = new HashMap<>();
         for (String word : words) {
             wordMap.put(word, wordMap.getOrDefault(word, 0) + 1);
