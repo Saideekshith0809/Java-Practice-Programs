@@ -20,7 +20,6 @@ public class SubstringWithConcatenation {
             wordMap.put(word, wordMap.getOrDefault(word, 0) + 1);
         }
 
-        // Try different starting offsets
         for (int i = 0; i < wordLen; i++) {
 
             int left = i;
@@ -36,7 +35,6 @@ public class SubstringWithConcatenation {
                     windowMap.put(word, windowMap.getOrDefault(word, 0) + 1);
                     count++;
 
-                    // If word frequency exceeds, shrink window
                     while (windowMap.get(word) > wordMap.get(word)) {
                         String leftWord = s.substring(left, left + wordLen);
                         windowMap.put(leftWord, windowMap.get(leftWord) - 1);
