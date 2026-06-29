@@ -1,5 +1,6 @@
 import java.util.*;
 import java.io.*;
+import java.util.Scanner;
 public class SubstringWithConcatenation {
 
     public static List<Integer> findSubstring(String s, String[] words) {
