@@ -11,12 +11,10 @@ class Solution {
             ListNode first = prev.next;
             ListNode second = first.next;
 
-            // Swap
             first.next = second.next;
             second.next = first;
             prev.next = second;
 
-            // Move to next pair
             prev = first;
         }
 
