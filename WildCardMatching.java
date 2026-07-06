@@ -20,7 +20,6 @@ class Solution {
                 if (pc == s.charAt(i - 1) || pc == '?') {
                     dp[i][j] = dp[i - 1][j - 1];
                 } else if (pc == '*') {
-                    // '*' matches empty sequence or one/more characters
                     dp[i][j] = dp[i][j - 1] || dp[i - 1][j];
                 }
             }
