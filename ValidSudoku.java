@@ -1,3 +1,5 @@
+import java.util.Scanner;
+import java.util.Stack;
 class Solution {
     public boolean isValidSudoku(char[][] board) {
         boolean[][] rows = new boolean[9][9];
