@@ -15,7 +15,6 @@ public class Solution {
 
         int maxSum = Integer.MIN_VALUE;
 
-        // Check all possible hourglasses
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
 
