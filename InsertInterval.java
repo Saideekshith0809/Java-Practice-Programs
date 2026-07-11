@@ -15,10 +15,7 @@ class Solution {
             i++;
         }
 
-        // Add merged interval
         result.add(newInterval);
-
-        // Add remaining intervals
         while (i < n) {
             result.add(intervals[i]);
             i++;
