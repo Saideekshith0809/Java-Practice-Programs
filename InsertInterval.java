@@ -1,3 +1,5 @@
+import java.util.*;
+import java.util.Scanner;
 class Solution {
     public int[][] insert(int[][] intervals, int[] newInterval) {
         List<int[]> result = new ArrayList<>();
