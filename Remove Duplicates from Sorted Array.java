@@ -1,3 +1,5 @@
+import java.util.*;
+import java.util.Scanner;
 class Solution {
     public int removeDuplicates(int[] nums) {
         int n = nums.length;
