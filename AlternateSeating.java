@@ -20,8 +20,6 @@ public class Main {
                     a[i]=1;
                     count++;
                 }
-                
-
             }
         }
         if(n<=count){
