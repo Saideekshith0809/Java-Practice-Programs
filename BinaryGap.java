@@ -1,3 +1,5 @@
+import java.io.*;
+import java.util.Scanner;
 class Solution {
     public int binaryGap(int n) {
         String st=Integer.toBinaryString(n);
