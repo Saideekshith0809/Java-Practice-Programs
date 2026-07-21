@@ -1,3 +1,5 @@
+import java.util.*;
+import java.util.Scanner;
 public class Solution {
     public int solve(int A) {
         int ans = 0;
