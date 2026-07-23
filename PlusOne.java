@@ -1,5 +1,4 @@
 import java.io.*;
-import java.lang.*;
 import java.util.*;
 import java.util.Scanner;
 class Solution {
@@ -11,7 +10,6 @@ class Solution {
             }
             digits[i] = 0;
         }
-
         int[] result = new int[digits.length + 1];
         result[0] = 1;
         return result;
